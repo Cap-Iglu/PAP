@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        tools:srcCompat="@mipmap/header_acores_foreground"
+        android:layout_width="414dp"
+        android:layout_height="138dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/header_acores_foreground" />
+
+    <ImageButton
+        android:id="@+id/voltarbtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="395dp"
+        android:layout_height="577dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Lagoa das Sete Cidades"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="A caldeira foi formada por colapsos sucessivos de dois relevos que a circundam, e tem um diâmetro de cerca de 5 km e profundidade máxima de 400 metros. Constitui-se numa das maiores caldeiras de abatimento do arquipélago. Os seus bordos apresentam, em sua maior parte, vertentes muito inclinadas."
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="A lagoa das Sete Cidades constitui-se no maior reservatório natural de água doce de superfície dos Açores, ocupando uma vasta área que chega aos 4,35 quilómetros quadrados, com uma profundidade de 33 metros."
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="Caracteriza-se pela dupla coloração das suas águas, sendo dividida por um canal pouco profundo, atravessado por uma ponte baixa que separa de um lado um espelho de águas de tom verde e, do outro, um espelho de tom azul."
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Essas características, e a beleza da paisagem envolvente, deram lugar a que surgissem belas lendas sobre a sua origem e formação, inclusive a que a liga ao mito da Atlântida.  A lagoa, bem como a sua zona envolvente, encontra-se classificada como Paisagem Protegida."
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="393dp"
+                        android:layout_height="393dp"
+                        app:srcCompat="@mipmap/ldsc_img1_acores_foreground"
+                        tools:srcCompat="@mipmap/ldsc_img1_acores_foreground" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="393dp"
+                        android:layout_height="393dp"
+                        app:srcCompat="@mipmap/ldsc_img2_acores_foreground"
+                        tools:layout_editor_absoluteX="371dp"
+                        tools:layout_editor_absoluteY="507dp"
+                        tools:srcCompat="@mipmap/ldsc_img2_acores_foreground" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="393dp"
+                        android:layout_height="393dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@mipmap/ldsc_img3_acores_foreground" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ldsc_img1_acores_background"/>
+    <foreground android:drawable="@mipmap/ldsc_img1_acores_foreground"/>
+</adaptive-icon>

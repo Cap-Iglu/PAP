@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="0dp"
+        android:layout_height="138dp"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/header_aveiro_foreground" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="0dp"
+        android:layout_height="577dp"
+        android:layout_marginTop="148dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:text="Costa Nova do Prado"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="A praia da Costa Nova do Prado, também conhecida apenas por Costa Nova, situa-se na costa ocidental de Portugal, na linha de costa da Ria de Aveiro."
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text='Teve a sua origem na abertura da barra da Ria de Aveiro, a partir do ano de 1808. A designação,julga-se, dever-se-à a dois factos. O primeiro, "Costa Nova", em oposição à "Costa Velha" (São Jacinto). Em segundo lugar deve-se ao facto de neste local, ter existido um enorme e verdejante prado.'
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="É uma das excelentes praias portuguesas para a prática de desportos náuticos, já que, além da frente atlântica, dispõe também de uma frente ribeirinha para o Canal de Mira da Ria de Aveiro. Além de um dos mais antigos clubes de vela da Ria de Aveiro - o Clube de Vela da Costa Nova, lá se encontram ainda localizadas escolas de kitesurf, canoagem e surf, entre outras modalidades desportivas, com destaque para uma das novidades: o Paddle Surf. A Praia é também atravessada por uma moderna ciclovia/ecovia que a liga quer à Ponte da Barra e à Praia da Barra quer à Praia da Vagueira, esta no vizinho Município de Vagos. Uma das atividades mais frequentes é o minigolfe, por via do clube que aqui se instalou há várias décadas. Dispõe também de vários recintos desportivos ao ar livre: ténis e futebol. "
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="393dp"
+                        android:layout_height="393dp"
+                        app:srcCompat="@mipmap/cndp2_foreground" />
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="393dp"
+                        android:layout_height="393dp"
+                        app:srcCompat="@mipmap/cndp1_foreground" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <ImageButton
+        android:id="@+id/voltarbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/nestedScrollView"
+        app:layout_constraintTop_toTopOf="@+id/imageView17"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+</android.support.constraint.ConstraintLayout>
