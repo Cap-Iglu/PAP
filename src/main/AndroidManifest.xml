@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".Bragamenuact$Bragancamenuact$Bragapdiact$castelobrancomenuact$cdbact$cndpact$contentmain$ldscact$MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -36,7 +36,7 @@
         </activity>
 
         <activity
-            android:name=".contentmain"
+            android:name=".Bragamenuact$Bragancamenuact$Bragapdiact$castelobrancomenuact$cdbact$cndpact$contentmain"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -67,7 +67,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ldscact"
+            android:name=".Bragamenuact$Bragancamenuact$Bragapdiact$castelobrancomenuact$cdbact$cndpact$contentmain$ldscact"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -111,7 +111,7 @@
         </activity>
 
         <activity
-            android:name=".Bragancamenuact"
+            android:name=".Bragamenuact$Bragancamenuact"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -122,7 +122,7 @@
         </activity>
 
         <activity
-            android:name=".castelobrancomenuact"
+            android:name=".Bragamenuact$Bragancamenuact$Bragapdiact$castelobrancomenuact"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -155,7 +155,7 @@
         </activity>
 
         <activity
-            android:name=".cndpact"
+            android:name=".Bragamenuact$Bragancamenuact$Bragapdiact$castelobrancomenuact$cdbact$cndpact"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -166,7 +166,7 @@
         </activity>
 
         <activity
-            android:name=".cdbact"
+            android:name=".Bragamenuact$Bragancamenuact$Bragapdiact$castelobrancomenuact$cdbact"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -188,7 +188,7 @@
         </activity>
 
         <activity
-            android:name=".Bragapdiact"
+            android:name=".Bragamenuact$Bragancamenuact$Bragapdiact"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

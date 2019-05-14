@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.pap_desta_vai.MainActivity">
+    tools:context="com.example.pap_desta_vai.Bragamenuact$Bragancamenuact$Bragapdiact$castelobrancomenuact$cdbact$cndpact$contentmain$ldscact$MainActivity">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
