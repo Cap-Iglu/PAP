@@ -10,46 +10,39 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.JavascriptInterface;
+import android.webkit.WebView;
 import android.widget.ImageButton;
 
 import static com.example.pap_desta_vai.R.menu.menu_main;
 
-public class Bragamenuact extends AppCompatActivity {
+public class Bragapdiact extends AppCompatActivity {
 
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.braga_menu);
+        setContentView(R.layout.pdibraga);
 
         ImageButton voltarbtn = (ImageButton) findViewById(R.id.voltarbtn);
-        ImageButton infbtn = (ImageButton) findViewById(R.id.infbtn);
-        ImageButton pdibtn = (ImageButton) findViewById(R.id.pdibtn);
+        ImageButton bjdmbtn = (ImageButton) findViewById(R.id.bjdmbtn);
 
         voltarbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bragamenuact.this, contentmain.class);
+                Intent intent = new Intent(Bragapdiact.this, Bragamenuact.class);
                 startActivity(intent);
             }
         });
 
-        infbtn.setOnClickListener(new View.OnClickListener() {
+        bjdmbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bragamenuact.this, AcoresInfact.class);
+                Intent intent = new Intent(Bragapdiact.this, cdbact.class);
                 startActivity(intent);
             }
         });
 
-        pdibtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Bragamenuact.this, Bragapdiact.class);
-                startActivity(intent);
-            }
-        });
     }
 
 

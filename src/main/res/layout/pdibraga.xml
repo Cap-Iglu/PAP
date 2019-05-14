@@ -32,7 +32,7 @@
             android:orientation="vertical" >
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/bjdmbtn"
                 android:layout_width="350dp"
                 android:layout_height="350dp"
                 android:layout_gravity="center"
@@ -49,4 +49,15 @@
                 tools:srcCompat="@tools:sample/backgrounds/scenic[0]" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
+
+    <ImageButton
+        android:id="@+id/voltarbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
 </android.support.constraint.ConstraintLayout>
