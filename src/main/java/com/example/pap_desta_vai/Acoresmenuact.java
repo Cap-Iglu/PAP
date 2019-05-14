@@ -22,7 +22,7 @@ public class Acoresmenuact extends AppCompatActivity {
         voltarbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Acoresmenuact.this, Bragamenuact.Bragancamenuact.Bragapdiact.castelobrancomenuact.cdbact.cndpact.contentmain.class);
+                Intent intent = new Intent(Acoresmenuact.this, MainActivity.class);
                 startActivity(intent);
             }
         });
