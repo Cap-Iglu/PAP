@@ -35,6 +35,14 @@ public class Aveiroinfact extends AppCompatActivity {
             }
         });
 
+        infbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Aveiroinfact.this, averiomenuact.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 

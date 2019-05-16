@@ -29,7 +29,7 @@ public class Bejapdiact extends AppCompatActivity {
         cdbbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bejapdiact.this, Bragamenuact.Bragancamenuact.Bragapdiact.castelobrancomenuact.cdbact.class);
+                Intent intent = new Intent(Bejapdiact.this, cdbact.class);
                 startActivity(intent);
             }
         });

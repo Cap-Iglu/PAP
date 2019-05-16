@@ -22,7 +22,7 @@ public class Bejamenuact extends AppCompatActivity {
         voltarbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bejamenuact.this, Bragamenuact.Bragancamenuact.Bragapdiact.castelobrancomenuact.cdbact.cndpact.contentmain.class);
+                Intent intent = new Intent(Bejamenuact.this, contentmain.class);
                 startActivity(intent);
             }
         });

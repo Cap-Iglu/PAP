@@ -29,7 +29,7 @@ public class Aveiropdiact extends AppCompatActivity {
         cndp_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Aveiropdiact.this, Bragamenuact.Bragancamenuact.Bragapdiact.castelobrancomenuact.cdbact.cndpact.class);
+                Intent intent = new Intent(Aveiropdiact.this, cndpact.class);
                 startActivity(intent);
             }
         });

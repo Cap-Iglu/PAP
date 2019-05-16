@@ -29,7 +29,7 @@ public class AcoresPdiact extends AppCompatActivity {
         ldsc_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AcoresPdiact.this, Bragamenuact.Bragancamenuact.Bragapdiact.castelobrancomenuact.cdbact.cndpact.contentmain.ldscact.class);
+                Intent intent = new Intent(AcoresPdiact.this, ldscact.class);
                 startActivity(intent);
             }
         });

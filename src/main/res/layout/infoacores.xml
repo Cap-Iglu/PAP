@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,13 +7,13 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        tools:srcCompat="@mipmap/header_acores_foreground"
         android:layout_width="414dp"
         android:layout_height="138dp"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/header_acores_foreground" />
+        app:srcCompat="@mipmap/header_acores_foreground"
+        tools:srcCompat="@mipmap/header_acores_foreground" />
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="395dp"
