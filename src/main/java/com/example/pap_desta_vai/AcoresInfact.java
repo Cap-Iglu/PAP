@@ -15,21 +15,21 @@ import android.widget.ImageButton;
 
 import static com.example.pap_desta_vai.R.menu.menu_main;
 
-public class Aveiroinfact extends AppCompatActivity {
+public class AcoresInfact extends AppCompatActivity {
 
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.infoaveiro);
+        setContentView(R.layout.infoacores);
 
-        ImageButton voltarbtn = (ImageButton) findViewById(R.id.voltarbtn);
+        ImageButton voltarbtn = (ImageButton) findViewById(R.id.voltarbtn3);
 
         voltarbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Aveiroinfact.this, averiomenuact.class);
+                Intent intent = new Intent(AcoresInfact.this, Acoresmenuact.class);
                 startActivity(intent);
             }
         });
