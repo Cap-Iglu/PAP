@@ -18,7 +18,6 @@ import static com.example.pap_desta_vai.R.menu.menu_main;
 public class Bragapdiact extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +43,5 @@ public class Bragapdiact extends AppCompatActivity {
         });
 
     }
-
-
 
 }
