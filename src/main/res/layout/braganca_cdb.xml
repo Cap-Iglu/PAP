@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="0dp"
+        android:layout_height="138dp"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/header_braganca_foreground" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView25"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Castelo de Bragança"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="O Castelo de Bragança é um dos mais importantes e bem preservados castelos portugueses. Do alto de seus muros avistam-se as serras de Montesinho e de Sanabria (a norte), a de Rebordões (a nordeste) e a de Nogueira (a oeste)."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="O castelo, de planta ovalada, erguido na cota de 700 metros acima do nível do mar, é constituído por uma cerca ameada com um perímetro de 660 metros, reforçada por quinze cubelos. Os panos de muralhas, com espessura média de dois metros, envolvem o núcleo histórico da cidade, ocupando uma área de cerca de três hectares, e delimitam-lhe quatro espaços, orientados por dois eixos viários, cujo principal é a antiga rua da Cidadela. Em seu interior o visitante pode apreciar as edificações da Domus Municipalis (exemplar único no país da arquitectura civil românica e que se acredita tenha tido, primitivamente, as funções de cisterna), da Igreja de Santa Maria (ou de Nossa Senhora do Sardão) e o Pelourinho medieval. Nessa cerca, rasgam-se três portas (duas sob a invocação de Santo Antônio e a Porta do Sol, a Leste) e dois postigos (a Porta da Traição e o Postigo do Poço do Rei)."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/imageView26"
+                        android:layout_width="393dp"
+                        android:layout_height="393dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@mipmap/braganca_cdb_1_background" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>
