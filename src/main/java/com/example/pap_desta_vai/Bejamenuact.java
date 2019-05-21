@@ -30,7 +30,7 @@ public class Bejamenuact extends AppCompatActivity {
         infbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bejamenuact.this, AcoresInfact.class);
+                Intent intent = new Intent(Bejamenuact.this, Bejainfact.class);
                 startActivity(intent);
             }
         });
