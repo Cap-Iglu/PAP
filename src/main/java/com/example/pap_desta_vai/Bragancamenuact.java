@@ -46,7 +46,7 @@ public class Bragancamenuact extends AppCompatActivity {
         pdibtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bragancamenuact.this, AcoresPdiact.class);
+                Intent intent = new Intent(Bragancamenuact.this, Bragapdiact.class);
                 startActivity(intent);
             }
         });
