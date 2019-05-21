@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="0dp"
+        android:layout_height="138dp"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/header_braga_foreground" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="25dp"
+                android:text="O distrito de Braga é um distrito português pertencente à província tradicional do Minho. Limita a norte com o distrito de Viana do Castelo e com Espanha, a leste com o distrito de Vila Real, e a sul com o distrito do Porto. A oeste com o oceano Atlântico."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="25dp"
+                android:text="Área: 2 706 km²"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="25dp"
+                android:text="População (2011): 848 185
+Densidade: 313 hab./km²"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="25dp"
+                android:text="Fuso horário: UTC +1
+Fuso horário (verão): UTC +1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="25dp"
+                android:text="Clima: o clima em Braga, pelo facto de se situar entre serras e o Oceano Atlântico, é tipicamente atlântico temperado[9], ou seja, com quatro estações bem definidas. Os Invernos são amenos e pluviosos , e geralmente com ventos moderados de Sudoeste."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="25dp"
+                android:text="Brasão"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="match_parent"
+                android:layout_height="384dp"
+                app:srcCompat="@mipmap/brasao_braga_foreground" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/voltarbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+</android.support.constraint.ConstraintLayout>
