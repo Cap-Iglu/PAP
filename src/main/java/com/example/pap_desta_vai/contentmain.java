@@ -28,6 +28,7 @@ public class contentmain extends AppCompatActivity {
         ImageButton menubragabtn = (ImageButton) findViewById(R.id.menubragabtn);
         ImageButton menubragancabtn = (ImageButton) findViewById(R.id.menubragancabtn);
         ImageButton menucastelobrancobtn = (ImageButton) findViewById(R.id.menucastelobrancobtn);
+        ImageButton gastronomiabtn = (ImageButton) findViewById(R.id.gastronomiabtn);
 
         menuacoresbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,6 +74,14 @@ public class contentmain extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(contentmain.this, castelobrancomenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        gastronomiabtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Gastronomiaact.class);
                 startActivity(intent);
             }
         });

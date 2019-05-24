@@ -18,6 +18,7 @@
         app:srcCompat="@mipmap/header_braganca_foreground" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,7 +29,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView42"
@@ -78,10 +79,38 @@ Fuso horário (verão): UTC +1"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:paddingBottom="25dp"
-                android:text="Fuso horário: UTC +1
-Fuso horário (verão): UTC +1"
+                android:text="Em Bragança, o clima é quente e temperado. O inverno tem muito mais pluviosidade que o verão. De acordo com a Köppen e Geiger a classificação do clima é Csb. Em Bragança a temperatura média é 11.6 °C. Pluviosidade média anual de 744 mm."
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="25dp"
+                android:text="Brasão"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="384dp"
+                app:srcCompat="@mipmap/brasao_braganca_foreground" />
+
+
         </LinearLayout>
     </ScrollView>
+
+    <ImageButton
+        android:id="@+id/voltarbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/scrollView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView31"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
 </android.support.constraint.ConstraintLayout>

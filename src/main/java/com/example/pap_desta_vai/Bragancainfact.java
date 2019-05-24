@@ -10,48 +10,28 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.JavascriptInterface;
+import android.webkit.WebView;
 import android.widget.ImageButton;
 
 import static com.example.pap_desta_vai.R.menu.menu_main;
 
-public class Bragamenuact extends AppCompatActivity {
-
+public class Bragancainfact extends AppCompatActivity {
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.braga_menu);
+        setContentView(R.layout.infobraganca);
 
         ImageButton voltarbtn = (ImageButton) findViewById(R.id.voltarbtn);
-        ImageButton infbtn = (ImageButton) findViewById(R.id.infbtn);
-        ImageButton pdibtn = (ImageButton) findViewById(R.id.pdibtn);
 
         voltarbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bragamenuact.this, contentmain.class);
+                Intent intent = new Intent(Bragancainfact.this, Bragancamenuact.class);
                 startActivity(intent);
             }
         });
 
-        infbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Bragamenuact.this, Bragainfact.class);
-                startActivity(intent);
-            }
-        });
-
-        pdibtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Bragamenuact.this, Bragapdiact.class);
-                startActivity(intent);
-            }
-        });
     }
-
-
-
 }
