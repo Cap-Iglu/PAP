@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "808363486526",
+    "firebase_url": "https://papdestavai.firebaseio.com",
+    "project_id": "papdestavai",
+    "storage_bucket": "papdestavai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808363486526:android:d77e55530823a25d",
+        "android_client_info": {
+          "package_name": "com.example.pap_desta_vai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808363486526-4sbh1qhu6cs3il90m2306457l42v445b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pap_desta_vai",
+            "certificate_hash": "e1822346cf3f8f6582d1094935ab2c320d0e46a0"
+          }
+        },
+        {
+          "client_id": "808363486526-0vd3hd5iq4j9in7bo4ff0rm9itb2k8ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnavmrzZc9vb_nCYw7J7iHJ_9h86RMDBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808363486526-0vd3hd5iq4j9in7bo4ff0rm9itb2k8ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
