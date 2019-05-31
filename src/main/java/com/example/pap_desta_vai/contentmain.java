@@ -11,11 +11,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.webkit.JavascriptInterface;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import static com.example.pap_desta_vai.R.menu.menu_main;
 
 public class contentmain extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
