@@ -37,7 +37,7 @@ public class Bragapdiact extends AppCompatActivity {
         bjdmbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bragapdiact.this, cdbact.class);
+                Intent intent = new Intent(Bragapdiact.this, Bragabjdmact.class);
                 startActivity(intent);
             }
         });

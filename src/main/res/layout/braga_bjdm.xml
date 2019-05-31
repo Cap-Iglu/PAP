@@ -1,6 +1,168 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="0dp"
+        android:layout_height="138dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/header_braga_foreground" />
+
+    <ImageButton
+        android:id="@+id/voltarbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView34">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Bom Jesus do Monte"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="O Santuário do Bom Jesus do Monte (também referido como Santuário do Bom Jesus de Braga) localiza-se na freguesia de Tenões, na cidade, concelho e distrito de Braga, em Portugal. Fica situado nas proximidades do Santuário de Nossa Senhora do Sameiro."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Este santuário católico dedicado ao Senhor Bom Jesus constitui-se num conjunto arquitetónico-paisagístico integrado por uma igreja, um escadório onde se desenvolve a Via Sacra do Bom Jesus, uma área de mata (Parque do Bom Jesus), alguns hotéis e um funicular (Elevador do Bom Jesus)."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Foi elevado a basílica-menor em 5 de julho de 2015."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="A sua peculiar disposição serviu de inspiração para outras construções, como por exemplo o Santuário de Nossa Senhora dos Remédios em Lamego, e o Santuário do Bom Jesus de Matosinhos na cidade de Congonhas, em Minas Gerais, no Brasil."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Em 20 de julho de 2015, foi apresentada a candidatura do Bom Jesus a Património Mundial da Humanidade na Comissão Nacional da Unesco."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Em 1 de junho de 2016, foi anunciado que o Santuário do Bom Jesus integra a lista Indicativa de Portugal ao Património Mundial aprovada pela Comissão Nacional da UNESCO. A lista indicativa constitui pré-requisito indispensável para a candidatura de bens a Património Mundial."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Classificado desde 1970 como Imóvel de Interesse Público, A Direção Regional de Cultura do Norte apresentou em 24 de novembro de 2016 proposta para a ampliação da classificação e eventual reclassificação para Monumento Nacional."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Em 30 de janeiro de 2018, foi entregue no Centro Património Mundial da UNESCO, a candidatura do “Santuário do Bom Jesus do Monte em Braga” à Lista do Património Mundial."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="A entrega realizou-se após a validação do Grupo de Trabalho Interministerial, para o Acompanhamento das Candidaturas a Património Mundial e subsequente homologação pelos Ministros dos Negócios Estrangeiros, da Cultura e do Ambiente."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="A candidatura passou já à fase seguinte de avaliação pelo ICOMOS (Conselho Internacional de Monumentos e Sítios)."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/imageView35"
+                        android:layout_width="393dp"
+                        android:layout_height="393dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@mipmap/braga_bjdm_1_foreground" />
+
+                    <ImageView
+                        android:id="@+id/imageView36"
+                        android:layout_width="393dp"
+                        android:layout_height="393dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@mipmap/braga_bjdm_2_foreground" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
 </android.support.constraint.ConstraintLayout>
