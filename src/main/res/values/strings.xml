@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Pap_desta_vai</string>
     <string name="action_settings">Settings</string>
+
+    <array name="distritos">
+        <item>Açores</item>
+        <item>Aveiro</item>
+        <item>Beja</item>
+        <item>Braga</item>
+        <item>Bragança</item>
+        <item>Castelo Branco</item>
+    </array>
 </resources>
