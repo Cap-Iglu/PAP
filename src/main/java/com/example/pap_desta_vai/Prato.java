@@ -27,4 +27,10 @@ public class Prato {
     public String getPrato_dis() {
         return prato_dis;
     }
+
+
+
+
 }
+
+
