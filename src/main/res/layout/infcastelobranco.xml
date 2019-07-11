@@ -108,7 +108,7 @@ Fuso horário (verão): UTC +1"
     </android.support.v4.widget.NestedScrollView>
 
     <ImageButton
-        android:id="@+id/voltarbtn7"
+        android:id="@+id/voltarbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

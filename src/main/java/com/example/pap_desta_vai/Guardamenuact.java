@@ -39,7 +39,7 @@ public class Guardamenuact extends AppCompatActivity {
         infbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Guardamenuact.this, AcoresInfact.class);
+                Intent intent = new Intent(Guardamenuact.this, Guardainfact.class);
                 startActivity(intent);
             }
         });

@@ -39,7 +39,7 @@ public class Vianadocastelomenuact extends AppCompatActivity {
         infbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Vianadocastelomenuact.this, AcoresInfact.class);
+                Intent intent = new Intent(Vianadocastelomenuact.this, Vianadocasteloinfact.class);
                 startActivity(intent);
             }
         });

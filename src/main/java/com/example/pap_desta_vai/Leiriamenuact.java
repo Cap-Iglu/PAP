@@ -39,7 +39,7 @@ public class Leiriamenuact extends AppCompatActivity {
         infbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Leiriamenuact.this, AcoresInfact.class);
+                Intent intent = new Intent(Leiriamenuact.this, Leiriainfact.class);
                 startActivity(intent);
             }
         });

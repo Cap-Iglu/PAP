@@ -39,7 +39,7 @@ public class Faromenuact extends AppCompatActivity {
         infbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Faromenuact.this, AcoresInfact.class);
+                Intent intent = new Intent(Faromenuact.this, Faroinfact.class);
                 startActivity(intent);
             }
         });

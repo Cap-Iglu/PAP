@@ -39,7 +39,7 @@ public class Portalegremenuact extends AppCompatActivity {
         infbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Portalegremenuact.this, AcoresInfact.class);
+                Intent intent = new Intent(Portalegremenuact.this, Portalegreinfact.class);
                 startActivity(intent);
             }
         });

@@ -39,7 +39,7 @@ public class Vilarealmenuact extends AppCompatActivity {
         infbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Vilarealmenuact.this, AcoresInfact.class);
+                Intent intent = new Intent(Vilarealmenuact.this, Vilarealinfact.class);
                 startActivity(intent);
             }
         });

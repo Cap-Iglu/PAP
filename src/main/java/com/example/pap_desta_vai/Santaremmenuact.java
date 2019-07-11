@@ -39,7 +39,7 @@ public class Santaremmenuact extends AppCompatActivity {
         infbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Santaremmenuact.this, AcoresInfact.class);
+                Intent intent = new Intent(Santaremmenuact.this, Santareminfact.class);
                 startActivity(intent);
             }
         });

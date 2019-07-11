@@ -39,7 +39,7 @@ public class Evoramenuact extends AppCompatActivity {
         infbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Evoramenuact.this, AcoresInfact.class);
+                Intent intent = new Intent(Evoramenuact.this, Evorainfact.class);
                 startActivity(intent);
             }
         });

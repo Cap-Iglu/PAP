@@ -39,7 +39,7 @@ public class Lisboamenuact extends AppCompatActivity {
         infbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Lisboamenuact.this, AcoresInfact.class);
+                Intent intent = new Intent(Lisboamenuact.this, Lisboainfact.class);
                 startActivity(intent);
             }
         });

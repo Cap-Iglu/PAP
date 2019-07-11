@@ -39,7 +39,7 @@ public class Portomenuact extends AppCompatActivity {
         infbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Portomenuact.this, AcoresInfact.class);
+                Intent intent = new Intent(Portomenuact.this, Portoinfact.class);
                 startActivity(intent);
             }
         });
