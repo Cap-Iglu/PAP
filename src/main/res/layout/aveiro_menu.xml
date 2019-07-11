@@ -21,9 +21,9 @@
         android:id="@+id/voltarbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="?attr/actionModeCloseDrawable" />
@@ -58,5 +58,16 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@mipmap/menu_2_aveiro_foreground"
         tools:srcCompat="@mipmap/menu_2_aveiro_foreground" />
+
+    <Button
+        android:id="@+id/gastrobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Gastro."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

@@ -29,6 +29,19 @@ public class contentmain extends AppCompatActivity {
         ImageButton menubragancabtn = (ImageButton) findViewById(R.id.menubragancabtn);
         ImageButton menucastelobrancobtn = (ImageButton) findViewById(R.id.menucastelobrancobtn);
         ImageButton gastronomiabtn = (ImageButton) findViewById(R.id.gastronomiabtn);
+        ImageButton menucoimbrabtn = (ImageButton) findViewById(R.id.menucoimbrabtn);
+        ImageButton menuevorabtn = (ImageButton) findViewById(R.id.menuevorabtn);
+        ImageButton menufarobtn = (ImageButton) findViewById(R.id.menufarobtn);
+        ImageButton menuguardabtn = (ImageButton) findViewById(R.id.menuguardabtn);
+        ImageButton menuleiriabtn = (ImageButton) findViewById(R.id.menuleiriabtn);
+        ImageButton menulisboabtn = (ImageButton) findViewById(R.id.menulisboabtn);
+        ImageButton menumadeirabtn = (ImageButton) findViewById(R.id.menumadeirabtn);
+        ImageButton menuportalegrebtn = (ImageButton) findViewById(R.id.menuportalegrebtn);
+        ImageButton menuportobtn = (ImageButton) findViewById(R.id.menuportobtn);
+        ImageButton menusantarembtn = (ImageButton) findViewById(R.id.menusantarembtn);
+        ImageButton menusetubalbtn = (ImageButton) findViewById(R.id.menusetubalbtn);
+        ImageButton menuvianadocastelobtn = (ImageButton) findViewById(R.id.menuvianadocastelobtn);
+        ImageButton menuvilarealbtn = (ImageButton) findViewById(R.id.menuvilarealbtn);
 
         menuacoresbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,6 +95,110 @@ public class contentmain extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(contentmain.this, Gastronomiaact.class);
+                startActivity(intent);
+            }
+        });
+
+        menucoimbrabtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Coimbramenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        menuevorabtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Evoramenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        menufarobtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Faromenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        menuguardabtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Guardamenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        menuleiriabtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Leiriamenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        menulisboabtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Lisboamenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        menumadeirabtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Madeiramenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        menuportalegrebtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Portalegremenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        menuportobtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Portomenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        menusantarembtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Santaremmenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        menusetubalbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Setubalmenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        menuvianadocastelobtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Vianadocastelomenuact.class);
+                startActivity(intent);
+            }
+        });
+
+        menuvilarealbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contentmain.this, Vilarealmenuact.class);
                 startActivity(intent);
             }
         });
