@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/header_porto_foreground"
+        app:srcCompat="@mipmap/header_santarem_foreground"
         tools:srcCompat="@mipmap/header_santarem_foreground" />
 
     <android.support.v4.widget.NestedScrollView
