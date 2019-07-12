@@ -6,33 +6,40 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class Bragapdiact extends AppCompatActivity {
+import com.example.pap_desta_vai.Bragancamenuact;
+import com.example.pap_desta_vai.R;
+import com.example.pap_desta_vai.cdbact;
+
+public class Santarempdiact extends AppCompatActivity {
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pdibraga);
+        setContentView(R.layout.pdisantarem);
 
         ImageButton voltarbtn = (ImageButton) findViewById(R.id.voltarbtn);
-        ImageButton bjdmbtn = (ImageButton) findViewById(R.id.jdpbtn);
+        ImageButton jdpbtn = (ImageButton) findViewById(R.id.jdpbtn);
 
         voltarbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bragapdiact.this, Bragamenuact.class);
+                Intent intent = new Intent(Santarempdiact.this, Santaremmenuact.class);
                 startActivity(intent);
             }
         });
 
-        bjdmbtn.setOnClickListener(new View.OnClickListener() {
+        jdpbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bragapdiact.this, Bragabjdmact.class);
+                Intent intent = new Intent(Santarempdiact.this, Castelobrancojdpact.class);
                 startActivity(intent);
             }
         });
 
     }
+
+
 
 }

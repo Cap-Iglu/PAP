@@ -6,13 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class Bragapdiact extends AppCompatActivity {
+public class Castelobrancopdiact extends AppCompatActivity {
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pdibraga);
+        setContentView(R.layout.pdicastelobranco);
 
         ImageButton voltarbtn = (ImageButton) findViewById(R.id.voltarbtn);
         ImageButton bjdmbtn = (ImageButton) findViewById(R.id.jdpbtn);
@@ -20,7 +20,7 @@ public class Bragapdiact extends AppCompatActivity {
         voltarbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bragapdiact.this, Bragamenuact.class);
+                Intent intent = new Intent(Castelobrancopdiact.this, castelobrancomenuact.class);
                 startActivity(intent);
             }
         });
@@ -28,7 +28,7 @@ public class Bragapdiact extends AppCompatActivity {
         bjdmbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bragapdiact.this, Bragabjdmact.class);
+                Intent intent = new Intent(Castelobrancopdiact.this, Bragabjdmact.class);
                 startActivity(intent);
             }
         });
