@@ -32,13 +32,13 @@
             android:orientation="vertical" >
 
             <ImageButton
-                android:id="@+id/jdpbtn"
+                android:id="@+id/svbtn"
                 android:layout_width="350dp"
                 android:layout_height="350dp"
                 android:layout_gravity="center"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@mipmap/sv_0_coimbra_foreground" />
+                app:srcCompat="@mipmap/mdp_0_guarda_foreground" />
 
             <ImageButton
                 android:id="@+id/imageButton4"

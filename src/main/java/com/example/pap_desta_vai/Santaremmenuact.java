@@ -47,7 +47,7 @@ public class Santaremmenuact extends AppCompatActivity {
         pdibtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Santaremmenuact.this, AcoresPdiact.class);
+                Intent intent = new Intent(Santaremmenuact.this, Santarempdiact.class);
                 startActivity(intent);
             }
         });

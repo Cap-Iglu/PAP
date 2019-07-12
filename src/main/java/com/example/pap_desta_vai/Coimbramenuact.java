@@ -47,7 +47,7 @@ public class Coimbramenuact extends AppCompatActivity {
         pdibtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Coimbramenuact.this, AcoresPdiact.class);
+                Intent intent = new Intent(Coimbramenuact.this, Coimbrapdiact.class);
                 startActivity(intent);
             }
         });

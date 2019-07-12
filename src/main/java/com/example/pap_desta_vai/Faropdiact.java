@@ -6,10 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.example.pap_desta_vai.Bragancamenuact;
-import com.example.pap_desta_vai.R;
-import com.example.pap_desta_vai.cdbact;
-
 public class Faropdiact extends AppCompatActivity {
 
 
@@ -20,7 +16,7 @@ public class Faropdiact extends AppCompatActivity {
         setContentView(R.layout.pdifaro);
 
         ImageButton voltarbtn = (ImageButton) findViewById(R.id.voltarbtn);
-        ImageButton jdpbtn = (ImageButton) findViewById(R.id.jdpbtn);
+        ImageButton jdpbtn = (ImageButton) findViewById(R.id.svbtn);
 
         voltarbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,7 +29,7 @@ public class Faropdiact extends AppCompatActivity {
         jdpbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Faropdiact.this, Castelobrancojdpact.class);
+                Intent intent = new Intent(Faropdiact.this, Farorfact.class);
                 startActivity(intent);
             }
         });

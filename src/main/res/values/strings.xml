@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">Pap_desta_vai</string>
     <string name="action_settings">Settings</string>
 
@@ -9,5 +9,18 @@
         <item>Braga</item>
         <item>Bragança</item>
         <item>Castelo Branco</item>
+	    <item>Coimbra</item>
+        <item>Évora</item>
+        <item>Faro</item>
+        <item>Guarda</item>
+        <item>Leiria</item>
+        <item>Lisboa</item>
+	    <item>Madeira</item>
+        <item>Portalegre</item>
+        <item>Porto</item>
+        <item>Santarém</item>
+        <item>Setúbal</item>
+        <item>Viana do Castelo</item>
+	<item>Vila Real</item>
     </array>
 </resources>

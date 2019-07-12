@@ -47,7 +47,7 @@ public class Setubalmenuact extends AppCompatActivity {
         pdibtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Setubalmenuact.this, AcoresPdiact.class);
+                Intent intent = new Intent(Setubalmenuact.this, Setubalpdiact.class);
                 startActivity(intent);
             }
         });

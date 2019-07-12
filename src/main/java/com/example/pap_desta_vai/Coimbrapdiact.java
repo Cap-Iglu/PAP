@@ -6,10 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.example.pap_desta_vai.Bragancamenuact;
-import com.example.pap_desta_vai.R;
-import com.example.pap_desta_vai.cdbact;
-
 public class Coimbrapdiact extends AppCompatActivity {
 
 
@@ -20,7 +16,7 @@ public class Coimbrapdiact extends AppCompatActivity {
         setContentView(R.layout.pdicoimbra);
 
         ImageButton voltarbtn = (ImageButton) findViewById(R.id.voltarbtn);
-        ImageButton jdpbtn = (ImageButton) findViewById(R.id.jdpbtn);
+        ImageButton svbtn = (ImageButton) findViewById(R.id.svbtn);
 
         voltarbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,10 +26,10 @@ public class Coimbrapdiact extends AppCompatActivity {
             }
         });
 
-        jdpbtn.setOnClickListener(new View.OnClickListener() {
+        svbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Coimbrapdiact.this, Castelobrancojdpact.class);
+                Intent intent = new Intent(Coimbrapdiact.this, Coimbrasvact.class);
                 startActivity(intent);
             }
         });

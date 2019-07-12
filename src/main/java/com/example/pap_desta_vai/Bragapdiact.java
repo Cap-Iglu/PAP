@@ -15,7 +15,7 @@ public class Bragapdiact extends AppCompatActivity {
         setContentView(R.layout.pdibraga);
 
         ImageButton voltarbtn = (ImageButton) findViewById(R.id.voltarbtn);
-        ImageButton bjdmbtn = (ImageButton) findViewById(R.id.jdpbtn);
+        ImageButton bjdmbtn = (ImageButton) findViewById(R.id.svbtn);
 
         voltarbtn.setOnClickListener(new View.OnClickListener() {
             @Override

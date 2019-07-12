@@ -18,11 +18,10 @@ import static com.example.pap_desta_vai.R.menu.menu_main;
 public class Bragamenuact extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.braga_menu);
+        setContentView(R.layout.braganca_menu);
 
         ImageButton voltarbtn = (ImageButton) findViewById(R.id.voltarbtn);
         ImageButton infbtn = (ImageButton) findViewById(R.id.infbtn);
@@ -62,7 +61,5 @@ public class Bragamenuact extends AppCompatActivity {
         });
 
     }
-
-
 
 }

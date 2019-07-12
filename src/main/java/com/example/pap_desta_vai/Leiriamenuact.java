@@ -47,7 +47,7 @@ public class Leiriamenuact extends AppCompatActivity {
         pdibtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Leiriamenuact.this, AcoresPdiact.class);
+                Intent intent = new Intent(Leiriamenuact.this, Leiriapdiact.class);
                 startActivity(intent);
             }
         });

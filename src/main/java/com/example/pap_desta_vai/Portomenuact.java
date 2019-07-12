@@ -47,7 +47,7 @@ public class Portomenuact extends AppCompatActivity {
         pdibtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Portomenuact.this, AcoresPdiact.class);
+                Intent intent = new Intent(Portomenuact.this, Portopdiact.class);
                 startActivity(intent);
             }
         });

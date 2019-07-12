@@ -47,7 +47,7 @@ public class Portalegremenuact extends AppCompatActivity {
         pdibtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Portalegremenuact.this, AcoresPdiact.class);
+                Intent intent = new Intent(Portalegremenuact.this, Portalegrepdiact.class);
                 startActivity(intent);
             }
         });

@@ -47,7 +47,7 @@ public class Madeiramenuact extends AppCompatActivity {
         pdibtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Madeiramenuact.this, AcoresPdiact.class);
+                Intent intent = new Intent(Madeiramenuact.this, Madeirapdiact.class);
                 startActivity(intent);
             }
         });

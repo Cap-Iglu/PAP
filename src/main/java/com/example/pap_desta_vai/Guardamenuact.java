@@ -47,7 +47,7 @@ public class Guardamenuact extends AppCompatActivity {
         pdibtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Guardamenuact.this, AcoresPdiact.class);
+                Intent intent = new Intent(Guardamenuact.this, Guardapdiact.class);
                 startActivity(intent);
             }
         });
